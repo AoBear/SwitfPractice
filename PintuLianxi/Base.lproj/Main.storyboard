@@ -23,6 +23,9 @@
                                     <constraint firstAttribute="height" constant="60" id="P9M-At-pr9"/>
                                 </constraints>
                                 <state key="normal" title="开始游戏"/>
+                                <connections>
+                                    <action selector="StartGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D3X-O8-TsV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-eT-cyj">
                                 <rect key="frame" x="0.0" y="284" width="320" height="60"/>
@@ -30,6 +33,9 @@
                                     <constraint firstAttribute="height" constant="60" id="k1a-Jo-oRU"/>
                                 </constraints>
                                 <state key="normal" title="其他"/>
+                                <connections>
+                                    <action selector="Other:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Cg-Zm-pZA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -46,19 +52,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="9RX-H0-i4c"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="OtherGame" destination="j0E-eT-cyj" id="hq8-ZA-JE6"/>
-                        <outlet property="startGame" destination="QOj-Q4-Gql" id="mjE-Lr-IWf"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="626" y="305"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="Tls-fz-xqG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z08-Q1-Yv6" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z08-Q1-Yv6" customClass="BaseNavigationController" customModule="PintuLianxi" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m0T-K6-Wyd">

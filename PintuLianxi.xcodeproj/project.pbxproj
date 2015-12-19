@@ -14,6 +14,11 @@
 		C5C20FC51C253569006D7BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FC31C253569006D7BE5 /* LaunchScreen.storyboard */; };
 		C5C20FD01C253569006D7BE5 /* PintuLianxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FCF1C253569006D7BE5 /* PintuLianxiTests.swift */; };
 		C5C20FDB1C253569006D7BE5 /* PintuLianxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FDA1C253569006D7BE5 /* PintuLianxiUITests.swift */; };
+		C5C20FEF1C253CB2006D7BE5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FEE1C253CB2006D7BE5 /* BaseViewController.swift */; };
+		C5C20FF11C253D17006D7BE5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF01C253D17006D7BE5 /* BaseNavigationController.swift */; };
+		C5C20FF31C253D7D006D7BE5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF21C253D7D006D7BE5 /* GameViewController.swift */; };
+		C5C20FF61C253D8D006D7BE5 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF41C253D8D006D7BE5 /* OtherViewController.swift */; };
+		C5C20FF71C253D8D006D7BE5 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FF51C253D8D006D7BE5 /* OtherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C5C20FD61C253569006D7BE5 /* PintuLianxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PintuLianxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C20FDA1C253569006D7BE5 /* PintuLianxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuLianxiUITests.swift; sourceTree = "<group>"; };
 		C5C20FDC1C253569006D7BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C20FEE1C253CB2006D7BE5 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C5C20FF01C253D17006D7BE5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C5C20FF21C253D7D006D7BE5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C5C20FF41C253D8D006D7BE5 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		C5C20FF51C253D8D006D7BE5 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				C5C20FBA1C253569006D7BE5 /* AppDelegate.swift */,
-				C5C20FBC1C253569006D7BE5 /* HomeViewController.swift */,
+				C5C20FEC1C253C72006D7BE5 /* Base */,
+				C5C20FEB1C253C6C006D7BE5 /* Util */,
+				C5C20FEA1C253C66006D7BE5 /* Model */,
+				C5C20FE91C253C5B006D7BE5 /* View */,
+				C5C20FE81C253C4C006D7BE5 /* ViewController */,
 				C5C20FBE1C253569006D7BE5 /* Main.storyboard */,
 				C5C20FC11C253569006D7BE5 /* Assets.xcassets */,
 				C5C20FC31C253569006D7BE5 /* LaunchScreen.storyboard */,
@@ -123,6 +137,55 @@
 				C5C20FDC1C253569006D7BE5 /* Info.plist */,
 			);
 			path = PintuLianxiUITests;
+			sourceTree = "<group>";
+		};
+		C5C20FE81C253C4C006D7BE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FED1C253C83006D7BE5 /* PaintBoard */,
+				C5C20FF21C253D7D006D7BE5 /* GameViewController.swift */,
+				C5C20FBC1C253569006D7BE5 /* HomeViewController.swift */,
+				C5C20FF41C253D8D006D7BE5 /* OtherViewController.swift */,
+				C5C20FF51C253D8D006D7BE5 /* OtherViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C5C20FE91C253C5B006D7BE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C5C20FEA1C253C66006D7BE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C5C20FEB1C253C6C006D7BE5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C5C20FEC1C253C72006D7BE5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FEE1C253CB2006D7BE5 /* BaseViewController.swift */,
+				C5C20FF01C253D17006D7BE5 /* BaseNavigationController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C5C20FED1C253C83006D7BE5 /* PaintBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PaintBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C20FC51C253569006D7BE5 /* LaunchScreen.storyboard in Resources */,
+				C5C20FF71C253D8D006D7BE5 /* OtherViewController.xib in Resources */,
 				C5C20FC21C253569006D7BE5 /* Assets.xcassets in Resources */,
 				C5C20FC01C253569006D7BE5 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C20FF31C253D7D006D7BE5 /* GameViewController.swift in Sources */,
+				C5C20FF61C253D8D006D7BE5 /* OtherViewController.swift in Sources */,
+				C5C20FF11C253D17006D7BE5 /* BaseNavigationController.swift in Sources */,
 				C5C20FBD1C253569006D7BE5 /* HomeViewController.swift in Sources */,
 				C5C20FBB1C253569006D7BE5 /* AppDelegate.swift in Sources */,
+				C5C20FEF1C253CB2006D7BE5 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +553,7 @@
 				C5C20FE11C253569006D7BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5C20FE21C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +562,7 @@
 				C5C20FE41C253569006D7BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5C20FE51C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +571,7 @@
 				C5C20FE71C253569006D7BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,13 +10,20 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    @IBOutlet weak var startGame: UIButton!
     
-    @IBOutlet weak var OtherGame: UIButton!
+    @IBAction func StartGame(sender: UIButton) {
+        let GVC = GameViewController()
+        self.navigationController!.pushViewController(GVC, animated: true)
+    }
     
+    @IBAction func Other(sender: UIButton) {
+        let OVC = OtherViewController()
+        self.navigationController!.pushViewController(OVC, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.lightGrayColor()
     }
 
     override func didReceiveMemoryWarning() {
