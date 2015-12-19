@@ -19,6 +19,15 @@
 		C5C20FF31C253D7D006D7BE5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF21C253D7D006D7BE5 /* GameViewController.swift */; };
 		C5C20FF61C253D8D006D7BE5 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF41C253D8D006D7BE5 /* OtherViewController.swift */; };
 		C5C20FF71C253D8D006D7BE5 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FF51C253D8D006D7BE5 /* OtherViewController.xib */; };
+		C5C210001C2544E7006D7BE5 /* JKArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FF91C2544E7006D7BE5 /* JKArrayExtension.swift */; };
+		C5C210011C2544E7006D7BE5 /* JKNSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FFA1C2544E7006D7BE5 /* JKNSDateExtension.swift */; };
+		C5C210021C2544E7006D7BE5 /* JKNSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FFB1C2544E7006D7BE5 /* JKNSStringExtension.swift */; };
+		C5C210031C2544E7006D7BE5 /* JKUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FFD1C2544E7006D7BE5 /* JKUIColorExtension.swift */; };
+		C5C210041C2544E7006D7BE5 /* JKUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FFE1C2544E7006D7BE5 /* JKUIImageExtension.swift */; };
+		C5C210051C2544E7006D7BE5 /* JKUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FFF1C2544E7006D7BE5 /* JKUIViewExtension.swift */; };
+		C5C210071C254500006D7BE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C210061C254500006D7BE5 /* Constants.swift */; };
+		C5C210091C254610006D7BE5 /* GridInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C210081C254610006D7BE5 /* GridInfo.swift */; };
+		C5C2100B1C254712006D7BE5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C2100A1C254712006D7BE5 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,15 @@
 		C5C20FF21C253D7D006D7BE5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C5C20FF41C253D8D006D7BE5 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		C5C20FF51C253D8D006D7BE5 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		C5C20FF91C2544E7006D7BE5 /* JKArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKArrayExtension.swift; sourceTree = "<group>"; };
+		C5C20FFA1C2544E7006D7BE5 /* JKNSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKNSDateExtension.swift; sourceTree = "<group>"; };
+		C5C20FFB1C2544E7006D7BE5 /* JKNSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKNSStringExtension.swift; sourceTree = "<group>"; };
+		C5C20FFD1C2544E7006D7BE5 /* JKUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKUIColorExtension.swift; sourceTree = "<group>"; };
+		C5C20FFE1C2544E7006D7BE5 /* JKUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKUIImageExtension.swift; sourceTree = "<group>"; };
+		C5C20FFF1C2544E7006D7BE5 /* JKUIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKUIViewExtension.swift; sourceTree = "<group>"; };
+		C5C210061C254500006D7BE5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C5C210081C254610006D7BE5 /* GridInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridInfo.swift; sourceTree = "<group>"; };
+		C5C2100A1C254712006D7BE5 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +172,7 @@
 		C5C20FE91C253C5B006D7BE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C5C2100A1C254712006D7BE5 /* GameView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -161,6 +180,7 @@
 		C5C20FEA1C253C66006D7BE5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C5C210081C254610006D7BE5 /* GridInfo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -168,6 +188,9 @@
 		C5C20FEB1C253C6C006D7BE5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				C5C20FF81C2544E7006D7BE5 /* Foundation */,
+				C5C20FFC1C2544E7006D7BE5 /* UIKit */,
+				C5C210061C254500006D7BE5 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -186,6 +209,26 @@
 			children = (
 			);
 			name = PaintBoard;
+			sourceTree = "<group>";
+		};
+		C5C20FF81C2544E7006D7BE5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FF91C2544E7006D7BE5 /* JKArrayExtension.swift */,
+				C5C20FFA1C2544E7006D7BE5 /* JKNSDateExtension.swift */,
+				C5C20FFB1C2544E7006D7BE5 /* JKNSStringExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		C5C20FFC1C2544E7006D7BE5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FFD1C2544E7006D7BE5 /* JKUIColorExtension.swift */,
+				C5C20FFE1C2544E7006D7BE5 /* JKUIImageExtension.swift */,
+				C5C20FFF1C2544E7006D7BE5 /* JKUIViewExtension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,12 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C210031C2544E7006D7BE5 /* JKUIColorExtension.swift in Sources */,
 				C5C20FF31C253D7D006D7BE5 /* GameViewController.swift in Sources */,
+				C5C210041C2544E7006D7BE5 /* JKUIImageExtension.swift in Sources */,
 				C5C20FF61C253D8D006D7BE5 /* OtherViewController.swift in Sources */,
+				C5C2100B1C254712006D7BE5 /* GameView.swift in Sources */,
 				C5C20FF11C253D17006D7BE5 /* BaseNavigationController.swift in Sources */,
+				C5C210011C2544E7006D7BE5 /* JKNSDateExtension.swift in Sources */,
 				C5C20FBD1C253569006D7BE5 /* HomeViewController.swift in Sources */,
+				C5C210071C254500006D7BE5 /* Constants.swift in Sources */,
 				C5C20FBB1C253569006D7BE5 /* AppDelegate.swift in Sources */,
 				C5C20FEF1C253CB2006D7BE5 /* BaseViewController.swift in Sources */,
+				C5C210051C2544E7006D7BE5 /* JKUIViewExtension.swift in Sources */,
+				C5C210091C254610006D7BE5 /* GridInfo.swift in Sources */,
+				C5C210001C2544E7006D7BE5 /* JKArrayExtension.swift in Sources */,
+				C5C210021C2544E7006D7BE5 /* JKNSStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
