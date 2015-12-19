@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="z08-Q1-Yv6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="PintuLianxi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOj-Q4-Gql">
+                                <rect key="frame" x="0.0" y="144" width="320" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="P9M-At-pr9"/>
+                                </constraints>
+                                <state key="normal" title="开始游戏"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-eT-cyj">
+                                <rect key="frame" x="0.0" y="284" width="320" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="k1a-Jo-oRU"/>
+                                </constraints>
+                                <state key="normal" title="其他"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QOj-Q4-Gql" secondAttribute="trailing" id="GVR-KG-My3"/>
+                            <constraint firstItem="QOj-Q4-Gql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GbN-fB-KqL"/>
+                            <constraint firstItem="QOj-Q4-Gql" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="PH9-Ur-PtG"/>
+                            <constraint firstAttribute="trailing" secondItem="j0E-eT-cyj" secondAttribute="trailing" id="PtV-Ok-t2r"/>
+                            <constraint firstItem="j0E-eT-cyj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cea-7B-XeE"/>
+                            <constraint firstItem="QOj-Q4-Gql" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nK2-2Y-MK2"/>
+                            <constraint firstItem="j0E-eT-cyj" firstAttribute="top" secondItem="QOj-Q4-Gql" secondAttribute="bottom" constant="80" id="v9c-zv-ZeA"/>
+                            <constraint firstItem="j0E-eT-cyj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z03-Do-arX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="9RX-H0-i4c"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="OtherGame" destination="j0E-eT-cyj" id="hq8-ZA-JE6"/>
+                        <outlet property="startGame" destination="QOj-Q4-Gql" id="mjE-Lr-IWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="626" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tls-fz-xqG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z08-Q1-Yv6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m0T-K6-Wyd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gnU-WH-3bY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Idi-3A-v2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="305"/>
+        </scene>
+    </scenes>
+</document>

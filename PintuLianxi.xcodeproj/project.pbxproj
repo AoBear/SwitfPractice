@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5C20FBB1C253569006D7BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FBA1C253569006D7BE5 /* AppDelegate.swift */; };
+		C5C20FBD1C253569006D7BE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FBC1C253569006D7BE5 /* HomeViewController.swift */; };
+		C5C20FC01C253569006D7BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FBE1C253569006D7BE5 /* Main.storyboard */; };
+		C5C20FC21C253569006D7BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FC11C253569006D7BE5 /* Assets.xcassets */; };
+		C5C20FC51C253569006D7BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C20FC31C253569006D7BE5 /* LaunchScreen.storyboard */; };
+		C5C20FD01C253569006D7BE5 /* PintuLianxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FCF1C253569006D7BE5 /* PintuLianxiTests.swift */; };
+		C5C20FDB1C253569006D7BE5 /* PintuLianxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C20FDA1C253569006D7BE5 /* PintuLianxiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5C20FCC1C253569006D7BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C20FAF1C253569006D7BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C20FB61C253569006D7BE5;
+			remoteInfo = PintuLianxi;
+		};
+		C5C20FD71C253569006D7BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C20FAF1C253569006D7BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5C20FB61C253569006D7BE5;
+			remoteInfo = PintuLianxi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5C20FB71C253569006D7BE5 /* PintuLianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PintuLianxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C20FBA1C253569006D7BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5C20FBC1C253569006D7BE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C5C20FBF1C253569006D7BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5C20FC11C253569006D7BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5C20FC41C253569006D7BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5C20FC61C253569006D7BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C20FCB1C253569006D7BE5 /* PintuLianxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PintuLianxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C20FCF1C253569006D7BE5 /* PintuLianxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuLianxiTests.swift; sourceTree = "<group>"; };
+		C5C20FD11C253569006D7BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C20FD61C253569006D7BE5 /* PintuLianxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PintuLianxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C20FDA1C253569006D7BE5 /* PintuLianxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuLianxiUITests.swift; sourceTree = "<group>"; };
+		C5C20FDC1C253569006D7BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5C20FB41C253569006D7BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FC81C253569006D7BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FD31C253569006D7BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5C20FAE1C253569006D7BE5 = {
+			isa = PBXGroup;
+			children = (
+				C5C20FB91C253569006D7BE5 /* PintuLianxi */,
+				C5C20FCE1C253569006D7BE5 /* PintuLianxiTests */,
+				C5C20FD91C253569006D7BE5 /* PintuLianxiUITests */,
+				C5C20FB81C253569006D7BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5C20FB81C253569006D7BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FB71C253569006D7BE5 /* PintuLianxi.app */,
+				C5C20FCB1C253569006D7BE5 /* PintuLianxiTests.xctest */,
+				C5C20FD61C253569006D7BE5 /* PintuLianxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C20FB91C253569006D7BE5 /* PintuLianxi */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FBA1C253569006D7BE5 /* AppDelegate.swift */,
+				C5C20FBC1C253569006D7BE5 /* HomeViewController.swift */,
+				C5C20FBE1C253569006D7BE5 /* Main.storyboard */,
+				C5C20FC11C253569006D7BE5 /* Assets.xcassets */,
+				C5C20FC31C253569006D7BE5 /* LaunchScreen.storyboard */,
+				C5C20FC61C253569006D7BE5 /* Info.plist */,
+			);
+			path = PintuLianxi;
+			sourceTree = "<group>";
+		};
+		C5C20FCE1C253569006D7BE5 /* PintuLianxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FCF1C253569006D7BE5 /* PintuLianxiTests.swift */,
+				C5C20FD11C253569006D7BE5 /* Info.plist */,
+			);
+			path = PintuLianxiTests;
+			sourceTree = "<group>";
+		};
+		C5C20FD91C253569006D7BE5 /* PintuLianxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5C20FDA1C253569006D7BE5 /* PintuLianxiUITests.swift */,
+				C5C20FDC1C253569006D7BE5 /* Info.plist */,
+			);
+			path = PintuLianxiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5C20FB61C253569006D7BE5 /* PintuLianxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C20FDF1C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxi" */;
+			buildPhases = (
+				C5C20FB31C253569006D7BE5 /* Sources */,
+				C5C20FB41C253569006D7BE5 /* Frameworks */,
+				C5C20FB51C253569006D7BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PintuLianxi;
+			productName = PintuLianxi;
+			productReference = C5C20FB71C253569006D7BE5 /* PintuLianxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5C20FCA1C253569006D7BE5 /* PintuLianxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C20FE21C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiTests" */;
+			buildPhases = (
+				C5C20FC71C253569006D7BE5 /* Sources */,
+				C5C20FC81C253569006D7BE5 /* Frameworks */,
+				C5C20FC91C253569006D7BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C20FCD1C253569006D7BE5 /* PBXTargetDependency */,
+			);
+			name = PintuLianxiTests;
+			productName = PintuLianxiTests;
+			productReference = C5C20FCB1C253569006D7BE5 /* PintuLianxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5C20FD51C253569006D7BE5 /* PintuLianxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C20FE51C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiUITests" */;
+			buildPhases = (
+				C5C20FD21C253569006D7BE5 /* Sources */,
+				C5C20FD31C253569006D7BE5 /* Frameworks */,
+				C5C20FD41C253569006D7BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C20FD81C253569006D7BE5 /* PBXTargetDependency */,
+			);
+			name = PintuLianxiUITests;
+			productName = PintuLianxiUITests;
+			productReference = C5C20FD61C253569006D7BE5 /* PintuLianxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C20FAF1C253569006D7BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DemonChou;
+				TargetAttributes = {
+					C5C20FB61C253569006D7BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L7L5H355RB;
+					};
+					C5C20FCA1C253569006D7BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L7L5H355RB;
+						TestTargetID = C5C20FB61C253569006D7BE5;
+					};
+					C5C20FD51C253569006D7BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L7L5H355RB;
+						TestTargetID = C5C20FB61C253569006D7BE5;
+					};
+				};
+			};
+			buildConfigurationList = C5C20FB21C253569006D7BE5 /* Build configuration list for PBXProject "PintuLianxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5C20FAE1C253569006D7BE5;
+			productRefGroup = C5C20FB81C253569006D7BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5C20FB61C253569006D7BE5 /* PintuLianxi */,
+				C5C20FCA1C253569006D7BE5 /* PintuLianxiTests */,
+				C5C20FD51C253569006D7BE5 /* PintuLianxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5C20FB51C253569006D7BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C20FC51C253569006D7BE5 /* LaunchScreen.storyboard in Resources */,
+				C5C20FC21C253569006D7BE5 /* Assets.xcassets in Resources */,
+				C5C20FC01C253569006D7BE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FC91C253569006D7BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FD41C253569006D7BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5C20FB31C253569006D7BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C20FBD1C253569006D7BE5 /* HomeViewController.swift in Sources */,
+				C5C20FBB1C253569006D7BE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FC71C253569006D7BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C20FD01C253569006D7BE5 /* PintuLianxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C20FD21C253569006D7BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C20FDB1C253569006D7BE5 /* PintuLianxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5C20FCD1C253569006D7BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5C20FB61C253569006D7BE5 /* PintuLianxi */;
+			targetProxy = C5C20FCC1C253569006D7BE5 /* PBXContainerItemProxy */;
+		};
+		C5C20FD81C253569006D7BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5C20FB61C253569006D7BE5 /* PintuLianxi */;
+			targetProxy = C5C20FD71C253569006D7BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5C20FBE1C253569006D7BE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C20FBF1C253569006D7BE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5C20FC31C253569006D7BE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C20FC41C253569006D7BE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5C20FDD1C253569006D7BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5C20FDE1C253569006D7BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5C20FE01C253569006D7BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PintuLianxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5C20FE11C253569006D7BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PintuLianxi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5C20FE31C253569006D7BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PintuLianxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PintuLianxi.app/PintuLianxi";
+			};
+			name = Debug;
+		};
+		C5C20FE41C253569006D7BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PintuLianxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PintuLianxi.app/PintuLianxi";
+			};
+			name = Release;
+		};
+		C5C20FE61C253569006D7BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PintuLianxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PintuLianxi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5C20FE71C253569006D7BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PintuLianxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemonChou.PintuLianxiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PintuLianxi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C20FB21C253569006D7BE5 /* Build configuration list for PBXProject "PintuLianxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C20FDD1C253569006D7BE5 /* Debug */,
+				C5C20FDE1C253569006D7BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C20FDF1C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C20FE01C253569006D7BE5 /* Debug */,
+				C5C20FE11C253569006D7BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5C20FE21C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C20FE31C253569006D7BE5 /* Debug */,
+				C5C20FE41C253569006D7BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5C20FE51C253569006D7BE5 /* Build configuration list for PBXNativeTarget "PintuLianxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C20FE61C253569006D7BE5 /* Debug */,
+				C5C20FE71C253569006D7BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5C20FAF1C253569006D7BE5 /* Project object */;
+}
